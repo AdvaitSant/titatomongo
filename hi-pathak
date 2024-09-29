@@ -1,1 +1,34 @@
+create react folder.
+let that react folder be in another folder with 2 more folders, named <app-name>, <node-server>,<database>
+
+let the app codes be in src folder
+used libs axios, mongoose, cors,
+
+then create node-server folder 
+run npm init -y
+run npm install express
+create index.js and attach codes as given
+
+then create database folder
+stay in previous folder, and type in 
+mongod --dbpath ./database
+
+then go to node-server folder and run 
+node index.js
+
+then npm start for the react app folder
+
+somewhere setup should look like
+
+->big folder
+      ---->react app
+                  ------>app.js
+                  ------>app.cs
+                  ------>other stuff
+      ---->node-server
+                  ----->index.js
+                  ----->package.json
+                  ----->package-lock.json
+      ---->database
+
 
